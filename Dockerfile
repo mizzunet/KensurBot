@@ -1,6 +1,6 @@
 FROM kenhv/kensurbot:alpine
 
-RUN dd -h
+RUN df -h
 RUN free -m
 WORKDIR /root/userbot/
 
