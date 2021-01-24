@@ -1,7 +1,7 @@
 FROM kenhv/kensurbot:alpine
 
-RUN df -h
-RUN free -m
+RUN git clone -b sql-extended https://github.com/KenHV/KensurBot /root/userbot
+RUN chmod 777 /root/userbot
 WORKDIR /root/userbot/
 
 EXPOSE 80 443
