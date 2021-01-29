@@ -120,6 +120,9 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER") or 1)
 ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY") or "./zips"
 
 # Clean Welcome
+
+
+CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME") or "False")
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX") or None
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or None
